@@ -44,7 +44,7 @@
 width:500px;
     background-image: url("./images/istockphoto-1287386736-612x612-removebg-preview.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 400px;
     background-position:bottom;
 }
 
@@ -55,6 +55,7 @@ width:500px;
     padding-top: 30px;
     padding-left: 20px;
     font-weight: 600;
+    font-family: "Poppins", serif;
 }
 
 .stars::before {
@@ -67,11 +68,13 @@ width:500px;
 {
     display: flex;
     font-size: smaller;
+    font-family: "Poppins", serif;
 }
 .rating span{
     padding-top: 7px;
     font-weight: 500;
     color: #a3a3a3;
+    font-family: "Poppins", serif;
 }
 #hello
 {
@@ -121,7 +124,71 @@ width:500px;
     margin-top: 10px;
 }
 
-.cc:focus
+.cc:hover
 {
     border: 2px solid orangered;
+}
+
+.colorh
+{
+    padding:20px 0px 0px 20px;
+}
+.color .col{
+    display: inline-block;
+    width:40px;
+    height: 40px;
+    border: none;
+    border-radius: 100%;
+    
+}
+
+.color
+{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+#quantity
+{
+    padding-left: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+
+}
+
+select{
+    background: white;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.butn
+{
+    padding-left: 70px;
+    margin-top: 15px;
+}
+
+button
+{
+    width: 150px;
+    height: 30px;
+    
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    
+}
+
+.btn1{
+    background-color: white;
+    border:2px solid grey;
+    color: gray;
+}
+.btn2
+{
+    background-color: #d74740;
+    color: white;
+    border:2px solid grey;
+    
 }
